@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signup form</title>
+    </head>
+    <body>
+        <form name="signup_form" method="post" action="formoutput.html">
+            <label>fname</label>
+            <input type="text" value=""name="fname" placeholder="enter fname here"/>
+            <label>email</label>
+            <input type="text" value=""name="email" placeholder="enter email here"/>
+            <label>password</label>
+            <input type="password" value=""name="password" placeholder="enter password here"/>
+    <br>
+    <label>gender-</label>
+            <label>male</label>
+            <input type="radio"value="male"name="gender"/>
+            <label>female</label>
+            <input type="radio"value="Female"name="gender"/>
+            <br>
+            <label>courses mern -</label>
+            <label>python</label>
+            <input type="checkbox"value="python"name="courses"/>
+            <label>java</label>
+            <input type="checkbox"value="java"name="courses"/>
+            <label>c</label>
+            <input type="checkbox"value="c"name="courses"/>
+            <label>html</label>
+            <input type="checkbox"value="html"name="courses"/>
+            <label>courses</label>
+            <select>
+                <option value="">select courses</option>
+                <option value="">python</option>
+                <option value="">java</option>
+                <option value="">c</option>
+                <option value="">html</option>
+            </select>
+            <label>address</label>
+            <textarea roe="4" col="4"></textarea>
+            
+        </form>  
+        <form fname="value_demo">
+            <label>fname</label>
+            <input type="text" value="" id="fname"name="fname"placeholder="please enter your first name">
+            <br>
+          <button onclick="display(event)">save</button>
+          <button type="submit">submit</button>
+        </form>
+        <script>
+            //function display(e){
+               // e.preventDefault();
+              //  let fname = document.getElementbyId("fname").value;
+               // console.log(fname)
+           // }
+        </script>
+     </body>
+</html>
